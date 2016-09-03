@@ -1,0 +1,7 @@
+﻿UTF-8 (NOT GBK)
+由于mingw的gcc/g++ 4.9.3编译器不支持#pragma预处理指令，头文件中相关部分已被注释。
+如需使用msvs，msvc等IDE，请在头文件中将相关部分的注释符号删去。
+请在g++编译时手动将32位的dll文件添加到C:\\MinGW\lib\并在编译时添加-lPCI8735_32参数。
+
+The #pragma preprocessing sccripts is not supported in gcc/g++ 4.9.3 compiler:
+please copy PCI8735_32.dll to C:\\MinGW\lib\ manually and add "-lPCI8735_32" for linking when compilling.
